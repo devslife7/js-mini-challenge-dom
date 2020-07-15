@@ -26,7 +26,8 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+JavaScript link should alaways go after all the html
+js cannot access nodes declared after the js link in the html
 ```
 
 ## Deliverable 2
@@ -35,7 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+You have access to the node styles properties with the .style property
 ```
 
 ## Deliverable 3
@@ -57,7 +58,8 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+innerHTML turns text in to HTML
+can create an long string as if it was HTML
 ```
 
 ## Deliverable 4
@@ -68,5 +70,6 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+make sure to double check the html to see if you are calling the right
+attribute value
 ```
